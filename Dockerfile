@@ -33,4 +33,7 @@ RUN cmake -G Ninja ../llvm \
 
 RUN cmake --build . -j $(nproc) --target check-mlir
 
+ENV build_root=/opt/llvm-project/build
+ENV mlir_src_root=/opt/llvm-project/mlir
+
 WORKDIR /workspace
