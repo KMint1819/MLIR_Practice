@@ -1,2 +1,2 @@
 docker build . -t mlir_box
-docker run --rm -it -v "$(pwd)":/workspace mlir_box bash
+docker run -it -v "$(pwd)":/workspace mlir_box bash

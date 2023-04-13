@@ -7,3 +7,7 @@ git clone https://github.com/KMint1819/MLIR_Practice && cd MLIR_Practice
 scripts/env
 ```
 > The docker build may take a while when cloning the llvm-project. It's massive.
+
+# File path
+- /opt/llvm-project/mlir/test/Examples/Toy
+
